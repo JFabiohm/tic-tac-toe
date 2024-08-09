@@ -40,7 +40,7 @@ header {
     margin-right: 20px;
 }
 
-.pan8a {
+.contendorT {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -67,14 +67,14 @@ header {
 
 }
 
-#pne {
+#newG {
     width: 200px;
     height: 55px;
    background-color: rgb(41, 37, 37);
    color: white;
 }
 
-#pne2 {
+#newG2 {
     width: 200px;
     height: 55px;
     margin-top: 10px;

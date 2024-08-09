@@ -100,7 +100,7 @@ function jugarAutomatico() {
     }
 }
 // Elimina el localStorage
-document.getElementById('pne').addEventListener('click', () => {
+document.getElementById('newG').addEventListener('click', () => {
     
     localStorage.removeItem('contadorGato');
     localStorage.removeItem('contadorRaton');
@@ -112,7 +112,7 @@ document.getElementById('pne').addEventListener('click', () => {
 
 });
 
-document.getElementById('pne2').addEventListener('click', () => {
+document.getElementById('newG2').addEventListener('click', () => {
 
     for (let i = 0; i < tablas.length; i++) {
         tablas[i].textContent = '';
@@ -140,7 +140,7 @@ function empate() {
     return tablero.flat().every(cell => cell !== '');
 }
 
-document.getElementById('pne').addEventListener('click', () => {
+document.getElementById('newG').addEventListener('click', () => {
     for (let i = 0; i < tablas.length; i++) {
         tablas[i].textContent = '';
     }
