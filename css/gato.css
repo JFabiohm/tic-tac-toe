@@ -1,0 +1,110 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: helvetica;
+}
+
+body {
+    background-image: radial-gradient( circle farthest-corner at 3.2% 49.6%,  rgba(80,12,139,0.87) 0%, rgba(161,10,144,0.72) 83.6% );
+}
+
+header {
+    background-color: rgb(199, 193, 24);
+    height: 100px;
+
+}
+
+
+.titulo {
+    display: grid;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.cont {
+    color: white;
+    font-size: 22px;
+    margin-right: 105px;
+    margin-left: 170px;
+}
+
+
+
+.msg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.pan8a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: helvetica;
+    margin-top: 50px;
+}
+
+.moverP :hover {
+    border: 1px solid rgb(233, 219, 219);
+}
+
+.moverP2 :hover {
+    border: 1px solid rgb(233, 219, 219);
+}
+
+
+.moverP {
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+}
+.moverB{
+    margin-left: 120px;
+
+}
+
+#pne {
+    width: 200px;
+    height: 55px;
+   background-color: rgb(41, 37, 37);
+   color: white;
+}
+
+#pne2 {
+    width: 200px;
+    height: 55px;
+    margin-top: 10px;
+    background-color: rgb(41, 37, 37);  
+    color: white;  
+}
+
+.tablas {
+    display: grid;
+    text-align: center;
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 1px solid black;
+    box-shadow: 4px 7px 17px #000;
+}
+
+.mainT {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 3fr);
+    width: 370px;
+    height: 370px;
+
+}
+
+.moverM {
+    display: grid;
+    justify-content: center;
+
+}
